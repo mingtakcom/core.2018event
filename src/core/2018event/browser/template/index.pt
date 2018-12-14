@@ -19,5 +19,22 @@ portal = api.portal.get()
 		<div class="main-footer">
 		  <div class="main-start" onclick="location.href='${portal/absolute_url}/image';"></div>
     </div>
+
+
+<div style="display:none">
+<img src="${portal/absolute_url}/img/clothes/clothes-1.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-2.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-3.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-4.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-5.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-6.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-7.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-8.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-9.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-10.png">
+
+</div>
+
+
 </body>
 </html>
