@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="core.2018event"
+      interface="core.2018event.interfaces.ICore2018EventLayer"
+      />
+</layers>

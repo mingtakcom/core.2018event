@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="core.2018event">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="core.2018event.interfaces.ICore2018EventLayer"
+      />
+
+  <!-- Publish static files -->
+  <plone:static
+      name="core.2018event"
+      type="plone"
+      directory="static"
+      />
+
+</configure>
