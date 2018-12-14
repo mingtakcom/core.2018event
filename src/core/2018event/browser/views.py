@@ -14,6 +14,19 @@ import logging
 logger = logging.getLogger("core.2018event")
 
 
+class End(BrowserView):
+    """ End """
+    template = ViewPageTemplateFile('template/end.pt')
+
+    def __call__(self):
+
+        request = self.request
+        self.keys = {}
+        self.keys['hat'], self.keys['scarf'], self.keys['phone'], self.keys['hand'], self.keys['clothes'], \
+            self.keys['shoes'], self.keys['decoration'], self.keys['who'], self.keys['say'] = request.PATH_INFO.split('/')[2:11]
+        return self.template()
+
+
 class Talk(BrowserView):
     """ Talk """
     template = ViewPageTemplateFile('template/talk.pt')

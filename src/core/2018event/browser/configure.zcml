@@ -40,4 +40,11 @@
       for="*"
   />
 
+  <browser:page
+      name="end"
+      class=".views.End"
+      permission="zope2.View"
+      for="*"
+  />
+
 </configure>

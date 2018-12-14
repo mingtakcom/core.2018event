@@ -128,12 +128,14 @@ portal = api.portal.get()
     width: 100%;
 }
 
-
-
 #result-img div { height: 100% }
+.main-sp-image { height: 100% }
+.main-image-deer-head, .main-image-deer { top: -30% }
+
 <tal:css repeat="key view/keys">
 .main-image-${key} {
     background-image: url(/core2018xmas/img/${key}/${key}-${python:view.keys[key]}.png);
+    top: -30%;
 }
 </tal:css>
 

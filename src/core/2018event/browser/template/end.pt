@@ -1,0 +1,97 @@
+<!doctype html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ xmlns:v-bind="http://vue.org/v-bind"
+ style="height: 100%;">
+
+<?python
+from plone import api
+portal = api.portal.get()
+?>
+
+<head>
+<meta charset="utf-8">
+<title>聖誕心意隨你pay</title>
+<link href="${portal/absolute_url}/++plone++core.2018event/css/xmas.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+</style>
+</head>
+
+<body style="height: 100%;">
+
+<div id="main">
+    
+    <div class="main-end">
+
+
+
+    <div class="main-sp">
+      <div class="main-sp-word">
+        <div class="main-sp-word-top"><img class="who-img" src="img/word1/${view/keys/who}.png" width="90%"/></div>
+        <div class="main-sp-word-bottom"><img class="say-img" src="img/word1/${view/keys/say}.png" width="90%"/></div>
+      </div>
+
+<!-- main image begin-->
+  <div class="main-image1 main-sp-image ">
+<div id="result-img">
+        <div class="main-image-hat"></div>
+        <div class="main-image-deer-head"></div>
+        <div class="main-image-scarf"></div>
+        <div class="main-image-phone"></div>
+        <div class="main-image-hand"></div>
+        <div class="main-image-clothes"></div>
+        <div class="main-image-shoes"></div>
+        <div class="main-image-deer"></div>
+        <div class="main-image-decoration"></div>
+</div>
+  </div>
+<!-- main image end -->
+
+    </div>
+
+
+
+
+
+
+<!--    <img src="img/1.png" height="100%"/></div>
+-->
+
+
+<!--
+    <div class="main-end-logo"><img src="img/logo.png" height="100%" alt=""/></div>
+    <div class="main-footer">
+      <div class="main-footer-fb"></div>
+      <div class="main-footer-card" onclick="location.href='https://ccard.firstbank.com.tw/cmsweb/Home/OnlineApplyCreditCard'"></div>
+      <div class="main-footer-file" onclick="location.href='https://ccard.firstbank.com.tw/pay/ApplePay/index.html'"></div>
+    </div>
+-->
+</div>
+
+    <div class="main-end-logo"><img src="img/logo.png" height="100%" alt=""/></div>
+    <div class="main-footer">
+      <div class="main-footer-fb"></div>
+      <div class="main-footer-card" onclick="location.href='https://ccard.firstbank.com.tw/cmsweb/Home/OnlineApplyCreditCard'"></div>
+      <div class="main-footer-file" onclick="location.href='https://ccard.firstbank.com.tw/pay/ApplePay/index.html'"></div>
+    </div>
+
+
+<style>
+
+#result-img div { height: 100% }
+.main-sp-image { height: 100% }
+.main-image-deer-head, .main-image-deer { top: -22% }
+
+
+<tal:css repeat="key view/keys">
+.main-image-${key} {
+    background-image: url(/core2018xmas/img/${key}/${key}-${python:view.keys[key]}.png);
+    top: -22%;
+}
+</tal:css>
+</style>
+
+
+</body>
+</html>
