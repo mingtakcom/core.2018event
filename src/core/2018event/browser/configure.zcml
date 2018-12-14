@@ -18,4 +18,11 @@
       directory="static"
       />
 
+  <!-- Browser View -->
+  <browser:page
+      name="index"
+      class=".views.Index"
+      permission="zope2.View"
+      for="*"
+  />
 </configure>

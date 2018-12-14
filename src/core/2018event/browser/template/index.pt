@@ -1,0 +1,23 @@
+<!doctype html>
+<html style="height: 100%;">
+
+<?python
+from plone import api
+portal = api.portal.get()
+?>
+
+<head>
+<meta charset="utf-8">
+<title>聖誕心意隨你pay</title>
+<link href="${portal/absolute_url}/++plone++core.2018event/css/xmas.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="height: 100%;">
+	<div id="main">
+		<div class="main-end">
+  <img src="images/3.png" width="100%"/> </div>
+		<div class="main-footer">
+		  <div class="main-start" onclick="location.href='../xmas/image.html';"></div>
+    </div>
+</body>
+</html>
