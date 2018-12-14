@@ -33,4 +33,11 @@
       for="*"
   />
 
+  <browser:page
+      name="talk"
+      class=".views.Talk"
+      permission="zope2.View"
+      for="*"
+  />
+
 </configure>

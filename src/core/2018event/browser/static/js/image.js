@@ -11,12 +11,14 @@ $(document).ready(function(){
       clothes: 1,
       shoes: 2,
       decoration: 2,
-      path: '1/1/1/1/1/2/2'
+      path: "location.href='" + location.href.replace('image', '') + '1/1/1/1/1/2/2' + "/talk'"
     },
     methods: {
       getPath: function (group, sn) {
         app[group] = sn
-        app['path'] = app['hat'] + '/' + app['scarf'] + '/' + app['phone'] + '/' + app['hand'] + '/' + app['clothes'] + '/' + app['shoes'] + '/' + app['decoration']
+        portal = location.href.replace('image', '')
+        path = app['hat'] + '/' + app['scarf'] + '/' + app['phone'] + '/' + app['hand'] + '/' + app['clothes'] + '/' + app['shoes'] + '/' + app['decoration']
+        app['path'] = "location.href='" + portal + path + "/talk'"
       }
     }
   })

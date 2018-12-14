@@ -14,6 +14,29 @@ import logging
 logger = logging.getLogger("core.2018event")
 
 
+class Talk(BrowserView):
+    """ Talk """
+    template = ViewPageTemplateFile('template/talk.pt')
+
+    def __call__(self):
+
+        request = self.request
+#        import pdb; pdb.set_trace()
+        self.keys = {}
+        self.keys['hat'], self.keys['scarf'], self.keys['phone'], \
+            self.keys['hand'], self.keys['clothes'], self.keys['shoes'], self.keys['decoration'] = request.PATH_INFO.split('/')[2:9]
+        return self.template()
+"""
+      hat: 1,
+      scarf: 1,
+      phone: 1,
+      hand: 1,
+      clothes: 1,
+      shoes: 2,
+      decoration: 2,
+"""
+
+
 class Image(BrowserView):
     """ Image """
     template = ViewPageTemplateFile('template/image.pt')

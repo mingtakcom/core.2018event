@@ -1,5 +1,8 @@
 <!doctype html>
-<html style="height: 100%;">
+<html
+ xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ xmlns:v-bind="http://vue.org/v-bind"
+ style="height: 100%;">
 
 <?python
 from plone import api
@@ -17,75 +20,75 @@ portal = api.portal.get()
   <div class="main-menu">
     <ul class="nav1" style="height: 12%;">
         <!-- 衣服 -->
-        <li class="li1"><img src="images/icon1.png" width="100%"/><a href="#"></a>
+        <li class="li1"><img src="img/icon1.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/clothes/clothes-iocn-1.png" width="100%"/></li>
-            <li class="li2"><img src="images/clothes/clothes-iocn-2.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-3.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-4.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-5.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-6.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-7.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-8.png" width="100%"/></li>
-			<li class="li2"><img src="images/clothes/clothes-iocn-9.png" width="100%"/></li>
-			  <li class="li2"><img src="images/clothes/clothes-iocn-10.png" width="100%"/></li>
+            <li class="li2"><img src="img/clothes/clothes-iocn-1.png" width="100%"/></li>
+            <li class="li2"><img src="img/clothes/clothes-iocn-2.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-3.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-4.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-5.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-6.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-7.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-8.png" width="100%"/></li>
+			<li class="li2"><img src="img/clothes/clothes-iocn-9.png" width="100%"/></li>
+			  <li class="li2"><img src="img/clothes/clothes-iocn-10.png" width="100%"/></li>
           </ul>
         </li>
 
         <!-- 帽子 -->
-        <li class="li1"><img src="images/icon2.png" width="100%"/><a href="#"></a>
+        <li class="li1"><img src="img/icon2.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/hat/hat-iocn-1.png" width="100%"/></li>
-			<li class="li2"><img src="images/hat/hat-iocn-2.png" width="100%"/></li>
-			<li class="li2"><img src="images/hat/hat-iocn-3.png" width="100%"/></li>
+            <li class="li2"><img src="img/hat/hat-iocn-1.png" width="100%"/></li>
+			<li class="li2"><img src="img/hat/hat-iocn-2.png" width="100%"/></li>
+			<li class="li2"><img src="img/hat/hat-iocn-3.png" width="100%"/></li>
           </ul>
         </li>
         <!-- 襪子 -->
-        <li class="li1"><img src="images/icon3.png" width="100%"/><a href="#"></a>
+        <li class="li1"><img src="img/icon3.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/shoes/shoes-iocn-1.png" width="100%"/></li>
-			<li class="li2"><img src="images/shoes/shoes-iocn-2.png" width="100%"/></li>
-			<li class="li2"><img src="images/shoes/shoes-iocn-3.png" width="100%"/></li>
-			<li class="li2"><img src="images/shoes/shoes-iocn-4.png" width="100%"/></li>
+            <li class="li2"><img src="img/shoes/shoes-iocn-1.png" width="100%"/></li>
+			<li class="li2"><img src="img/shoes/shoes-iocn-2.png" width="100%"/></li>
+			<li class="li2"><img src="img/shoes/shoes-iocn-3.png" width="100%"/></li>
+			<li class="li2"><img src="img/shoes/shoes-iocn-4.png" width="100%"/></li>
           </ul>
         </li>
 
         <!-- 圍巾 -->
-        <li class="li1"><img src="images/icon4.png" width="100%"/><a href="#"></a>
+        <li class="li1"><img src="img/icon4.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/scarf/scarf-iocn-1.png" width="100%"/></li>
-			<li class="li2"><img src="images/scarf/scarf-iocn-2.png" width="100%"/></li>
-			<li class="li2"><img src="images/scarf/scarf-iocn-3.png" width="100%"/></li>
+            <li class="li2"><img src="img/scarf/scarf-iocn-1.png" width="100%"/></li>
+			<li class="li2"><img src="img/scarf/scarf-iocn-2.png" width="100%"/></li>
+			<li class="li2"><img src="img/scarf/scarf-iocn-3.png" width="100%"/></li>
           </ul>
         </li>
 
         <!-- 背景 -->
-	<li class="li1"><img src="images/icon5.png" width="100%"/><a href="#"></a>
+	<li class="li1"><img src="img/icon5.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/decoration/decoration-iocn-1.png" width="100%"/></li>
-			<li class="li2"><img src="images/decoration/decoration-iocn-2.png" width="100%"/></li>
-			<li class="li2"><img src="images/decoration/decoration-iocn-3.png" width="100%"/></li>
-			<li class="li2"><img src="images/decoration/decoration-iocn-4.png" width="100%"/></li>
+            <li class="li2"><img src="img/decoration/decoration-iocn-1.png" width="100%"/></li>
+			<li class="li2"><img src="img/decoration/decoration-iocn-2.png" width="100%"/></li>
+			<li class="li2"><img src="img/decoration/decoration-iocn-3.png" width="100%"/></li>
+			<li class="li2"><img src="img/decoration/decoration-iocn-4.png" width="100%"/></li>
           </ul>
         </li>
 
         <!-- 左手 -->
-	<li class="li1"><img src="images/icon6.png" width="100%"/><a href="#"></a>
+	<li class="li1"><img src="img/icon6.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/hand/hand-iocn-1.png" width="100%"/></li>
-			  <li class="li2"><img src="images/hand/hand-iocn-2.png" width="100%"/></li>
-			  <li class="li2"><img src="images/hand/hand-iocn-3.png" width="100%"/></li>
+            <li class="li2"><img src="img/hand/hand-iocn-1.png" width="100%"/></li>
+			  <li class="li2"><img src="img/hand/hand-iocn-2.png" width="100%"/></li>
+			  <li class="li2"><img src="img/hand/hand-iocn-3.png" width="100%"/></li>
           </ul>
         </li>
 
         <!-- 右手 -->
-	<li class="li1"><img src="images/icon7.png" width="100%"/><a href="#"></a>
+	<li class="li1"><img src="img/icon7.png" width="100%"/><a href="#"></a>
           <ul class="nav2">
-            <li class="li2"><img src="images/phone/phone-iocn-1.png" width="100%"/></li>
-			  <li class="li2"><img src="images/phone/phone-iocn-2.png" width="100%"/></li>
-			  <li class="li2"><img src="images/phone/phone-iocn-3.png" width="100%"/></li>
-			  <li class="li2"><img src="images/phone/phone-iocn-4.png" width="100%"/></li>
-			  <li class="li2"><img src="images/phone/phone-iocn-5.png" width="100%"/></li>
+            <li class="li2"><img src="img/phone/phone-iocn-1.png" width="100%"/></li>
+			  <li class="li2"><img src="img/phone/phone-iocn-2.png" width="100%"/></li>
+			  <li class="li2"><img src="img/phone/phone-iocn-3.png" width="100%"/></li>
+			  <li class="li2"><img src="img/phone/phone-iocn-4.png" width="100%"/></li>
+			  <li class="li2"><img src="img/phone/phone-iocn-5.png" width="100%"/></li>
           </ul>
         </li>
 
@@ -106,7 +109,7 @@ portal = api.portal.get()
 	<div class="main-image-decoration"></div>
 </div>
     <div class="main-confirm"
-         onclick="location.href='${portal/absolute_url}/1/1/1/1/1/2/2/talks';"></div>
+         v-bind:onclick="path"></div>
     
   </div>
 </div>
@@ -120,12 +123,10 @@ portal = api.portal.get()
 }
 </style>
 
-
-
 <script src="${portal/absolute_url}/++plone++core.2018event/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="${portal/absolute_url}/++plone++core.2018event/js/html2canvas.min.js"></script>
 <script src="${portal/absolute_url}/++plone++core.2018event/js/vue.js"></script>
-<script src="${portal/absolute_url}/++plone++core.2018event/js/script.js"></script>
+<script src="${portal/absolute_url}/++plone++core.2018event/js/image.js"></script>
 
 </body>
 </html>

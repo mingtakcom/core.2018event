@@ -15,7 +15,7 @@ portal = api.portal.get()
 <body style="height: 100%;">
 	<div id="main">
 		<div class="main-end">
-  <img src="images/3.png" width="100%"/> </div>
+  <img src="img/3.png" width="100%"/> </div>
 		<div class="main-footer">
 		  <div class="main-start" onclick="location.href='${portal/absolute_url}/image';"></div>
     </div>
