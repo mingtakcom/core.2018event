@@ -1,72 +1,52 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 
   var app = new Vue({
     el: '#main',
     data: {
       message: 'Hello Vue!',
-      hat: 1,
-      scarf: 1,
-      phone: 1,
-      hand: 1,
-      clothes: 1,
-      shoes: 2,
-      decoration: 2,
-      path: "location.href='" + location.href.replace('image', '') + '1/1/1/1/1/2/2' + "/talk'"
+      who: 't2',
+      say: 'w11',
+      path: "location.href='" + location.href.replace('talk', '') + "t2/w11/end'"
     },
     methods: {
-      getPath: function (group, sn) {
-        app[group] = sn
-        portal = location.href.replace('image', '')
-        path = app['hat'] + '/' + app['scarf'] + '/' + app['phone'] + '/' + app['hand'] + '/' + app['clothes'] + '/' + app['shoes'] + '/' + app['decoration']
-        app['path'] = "location.href='" + portal + path + "/talk'"
+      getPath: function () {
+        app['path'] = "location.href='" + location.href.replace('talk', '') + app['who'] + "/" + app['say'] + "/end'"
       }
     }
+
+  })
+
+
+// 打招呼
+  $('.main-footer-btn1').click(function(){
+      $('.forwhom').show()
+  })
+
+  $('.forwhom img').click(function(){
+      who = $(this).data('who')
+      app['who'] = who
+      app['getPath']()
+      src = 'img/word1/' + who + '.png'
+      $('.who-img').attr('src', src)
+      $('.forwhom').hide()
   })
 
 
-/* 截圖 先放著不一定會用到
-  $('.main-confirm').click(function(){
-
-// 存圖檔的範例，先不用
-    html2canvas($('body'), {
-        onrendered: function(canvas) {
-            theCanvas = canvas;
-            canvas.toBlob(function(blob) {
-                window.open(blob);
-                saveAs(blob, "output.png");
-            });
-        }
-    });
-// 先不用，但myImage有base64的值
-    html2canvas($("#result-img"), {
-        onrendered: function(canvas) {
-            // canvas is the final rendered <canvas> element
-            var myImage = canvas.toDataURL("image/png");
-            window.open(myImage);
-        }
-    });
-
+// 說說話
+  $('.main-footer-btn2').click(function(){
+      $('.saywhat').show()
   })
-*/
 
-/* 伸縮選項 */
-  $('.li1').hover(function(){
-    $(this).find('.nav2').slideDown()
-  }, function(){
-    $(this).find('.nav2').slideUp()
+  $('.saywhat img').click(function(){
+      say = $(this).data('say')
+      app['say'] = say
+      app['getPath']()
+      src = 'img/word1/' + say + '.png'
+      $('.say-img').attr('src', src)
+      $('.saywhat').hide()
   })
 
 
-/* 點品項 */
-  $('.li2 img').click(function(){
-    src = $(this).attr('src')
-    group = src.split('/')[1]
-    filename = src.split('/')[2]
-    sn = filename.split('.')[0].split('-')[2]
-
-    imgPath = 'url(images/' + group + '/' + filename.replace('-iocn', '') + ')'
-    $('.main-image-' + group).css('background-image', imgPath)
-    app['getPath'](group, sn)
-  })
 
 })
+
