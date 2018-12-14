@@ -50,10 +50,17 @@ $(document).ready(function(){
 */
 
 /* 伸縮選項 */
-  $('.li1').hover(function(){
-    $(this).find('.nav2').slideDown()
-  }, function(){
-    $(this).find('.nav2').slideUp()
+  $('.li1').click(function(){
+
+    if( $(this).find('.nav2').css('display') == 'none' ){
+        $('.li1').slideUp()
+        $(this).slideDown()
+        $('.nav2').slideUp()
+        $(this).find('.nav2').slideDown()
+    }else{
+        $('.li1').slideDown()
+        $('.nav2').slideUp()
+    }
   })
 
 

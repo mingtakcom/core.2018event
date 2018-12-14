@@ -69,8 +69,8 @@ portal = api.portal.get()
 	
     <div class="main-sp">
       <div class="main-sp-word">
-        <div class="main-sp-word-top"><img class="who-img" src="img/word1/t2.png" width="90%"/></div>
-        <div class="main-sp-word-bottom"><img class="say-img" src="img/word1/w11.png" width="90%"/></div>
+        <div class="main-sp-word-top"><img class="who-img" id="who-img" src="" width="90%" /></div>
+        <div class="main-sp-word-bottom"><img class="say-img" id="say-img" src="" width="90%" /></div>
       </div>
 
 <!-- main image begin-->
@@ -93,7 +93,7 @@ portal = api.portal.get()
   <div class="main-footer">
 	<div class="main-footer-btn1"></div>
 	<div class="main-footer-btn2"></div>
-	<div class="main-footer-next"
+	<div class="main-footer-next" style="display:none"
              v-bind:onclick="path"></div>
   </div>
 </div>

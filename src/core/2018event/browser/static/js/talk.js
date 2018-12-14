@@ -29,6 +29,10 @@
       src = 'img/word1/' + who + '.png'
       $('.who-img').attr('src', src)
       $('.forwhom').hide()
+
+      if( $('#who-img').attr('src') != '' && $('#say-img').attr('src') != '' ){
+          $('.main-footer-next').slideDown()
+      }
   })
 
 
@@ -44,9 +48,12 @@
       src = 'img/word1/' + say + '.png'
       $('.say-img').attr('src', src)
       $('.saywhat').hide()
+
+      if( $('#who-img').attr('src') != '' && $('#say-img').attr('src') != '' ){
+          $('.main-footer-next').slideDown()
+      }
+
   })
-
-
 
 })
 
