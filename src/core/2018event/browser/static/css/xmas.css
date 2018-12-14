@@ -88,7 +88,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/clothes/clothes-1.png);
+	background-image: url(/core2018xmas/images/clothes/clothes-1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -98,7 +98,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/hand/hand-1.png);
+	background-image: url(/core2018xmas/images/hand/hand-1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -108,7 +108,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/phone/phone-1.png);
+	background-image: url(/core2018xmas/images/phone/phone-1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -118,7 +118,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/scarf/scarf-1.png);
+	background-image: url(/core2018xmas/images/scarf/scarf-1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -128,7 +128,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/shoes/shoes-2.png);
+	background-image: url(/core2018xmas/images/shoes/shoes-2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -138,7 +138,7 @@ img {
 	position:absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/deer.png);
+	background-image: url(/core2018xmas/images/deer.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -148,7 +148,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/decoration/decoration-2.png);
+	background-image: url(/core2018xmas/images/decoration/decoration-2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -158,7 +158,7 @@ img {
 	position:absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/deer-head.png);
+	background-image: url(/core2018xmas/images/deer-head.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -168,7 +168,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 80%;
-	background-image: url(../images/hat/hat-1.png);
+	background-image: url(/core2018xmas/images/hat/hat-1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -178,7 +178,7 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 20%;
-	background-image: url(../images/btn-confirm.png);
+	background-image: url(/core2018xmas/images/btn-confirm.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
@@ -219,7 +219,7 @@ img {
 	position: relative;
 	width: 100%;
 	height: 70%;
-	background-image: url(../images/deer.png);
+	background-image: url(/core2018xmas/images/deer.png);
 	background-repeat: no-repeat;
     background-position:bottom;
     background-size: contain;
@@ -238,7 +238,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 70%;
-	background-image: url(../images/btn-footer-1.png);
+	background-image: url(/core2018xmas/images/btn-footer-1.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center bottom;
@@ -248,7 +248,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 70%;
-	background-image: url(../images/btn-footer-2.png);
+	background-image: url(/core2018xmas/images/btn-footer-2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
     background-position: center bottom;
@@ -257,7 +257,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 70%;
-	background-image: url(../images/btn-footer-next.png);
+	background-image: url(/core2018xmas/images/btn-footer-next.png);
 	background-repeat: no-repeat;
 	background-size: contain;
     background-position: center bottom;
@@ -266,7 +266,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 100%;
-	background-image: url(../images/btn-footer-fb.png);
+	background-image: url(/core2018xmas/images/btn-footer-fb.png);
 	background-repeat: no-repeat;
 	background-size: contain;
     background-position: center bottom;
@@ -275,7 +275,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 100%;
-	background-image: url(../images/btn-footer-card.png);
+	background-image: url(/core2018xmas/images/btn-footer-card.png);
 	background-repeat: no-repeat;
 	background-size: contain;
     background-position: center bottom;
@@ -284,7 +284,7 @@ img {
 	float: left;
 	width: 33.3%;
 	height: 100%;
-	background-image: url(../images/btn-footer-file.png);
+	background-image: url(/core2018xmas/images/btn-footer-file.png);
 	background-repeat: no-repeat;
 	background-size: contain;
     background-position: center bottom;

@@ -14,6 +14,15 @@ import logging
 logger = logging.getLogger("core.2018event")
 
 
+class Image(BrowserView):
+    """ Image """
+    template = ViewPageTemplateFile('template/image.pt')
+
+    def __call__(self):
+
+        return self.template()
+
+
 class Index(BrowserView):
     """ Index """
     template = ViewPageTemplateFile('template/index.pt')

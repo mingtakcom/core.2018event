@@ -1,9 +1,31 @@
 $(document).ready(function(){
 
-/* 截圖 */
+  var app = new Vue({
+    el: '#main',
+    data: {
+      message: 'Hello Vue!',
+      hat: 1,
+      scarf: 1,
+      phone: 1,
+      hand: 1,
+      clothes: 1,
+      shoes: 2,
+      decoration: 2,
+      path: '1/1/1/1/1/2/2'
+    },
+    methods: {
+      getPath: function (group, sn) {
+        app[group] = sn
+        app['path'] = app['hat'] + '/' + app['scarf'] + '/' + app['phone'] + '/' + app['hand'] + '/' + app['clothes'] + '/' + app['shoes'] + '/' + app['decoration']
+      }
+    }
+  })
+
+
+/* 截圖 先放著不一定會用到
   $('.main-confirm').click(function(){
 
-/*
+// 存圖檔的範例，先不用
     html2canvas($('body'), {
         onrendered: function(canvas) {
             theCanvas = canvas;
@@ -13,17 +35,17 @@ $(document).ready(function(){
             });
         }
     });
-*/
-
-    html2canvas($("body"), {
+// 先不用，但myImage有base64的值
+    html2canvas($("#result-img"), {
         onrendered: function(canvas) {
             // canvas is the final rendered <canvas> element
             var myImage = canvas.toDataURL("image/png");
-debugger
             window.open(myImage);
         }
     });
+
   })
+*/
 
 /* 伸縮選項 */
   $('.li1').hover(function(){
@@ -38,24 +60,11 @@ debugger
     src = $(this).attr('src')
     group = src.split('/')[1]
     filename = src.split('/')[2]
+    sn = filename.split('.')[0].split('-')[2]
 
     imgPath = 'url(images/' + group + '/' + filename.replace('-iocn', '') + ')'
     $('.main-image-' + group).css('background-image', imgPath)
+    app['getPath'](group, sn)
   })
-
 
 })
-
-
-
-/*
-$(document).ready(function(){
-  var app = new Vue({
-    el: '#main',
-    data: {
-      message: 'Hello Vue!'
-    }
-  })
-
-
-})*/

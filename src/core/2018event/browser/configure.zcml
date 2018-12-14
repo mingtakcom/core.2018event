@@ -25,4 +25,12 @@
       permission="zope2.View"
       for="*"
   />
+
+  <browser:page
+      name="image"
+      class=".views.Image"
+      permission="zope2.View"
+      for="*"
+  />
+
 </configure>
