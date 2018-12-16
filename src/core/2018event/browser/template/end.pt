@@ -71,7 +71,15 @@ portal = api.portal.get()
 
     <div class="main-end-logo"><img src="img/logo.png" height="100%" alt=""/></div>
     <div class="main-footer">
-      <div class="main-footer-fb"></div>
+<!-- facebook 分享 -->
+      <div class="main-footer-fb" id="share-to-fb">
+<br>
+<!-- <div class="fb-share-button" data-href="http://firstbank.playgroup.com.tw/" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffirstbank.playgroup.com.tw%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div> -->
+
+      </div>
+
+
+
       <div class="main-footer-card" onclick="location.href='https://ccard.firstbank.com.tw/cmsweb/Home/OnlineApplyCreditCard'"></div>
       <div class="main-footer-file" onclick="location.href='https://ccard.firstbank.com.tw/pay/ApplePay/index.html'"></div>
     </div>
@@ -92,6 +100,30 @@ portal = api.portal.get()
 </tal:css>
 </style>
 
+
+
+<script>
+var fbButton_1 = document.getElementById('share-to-fb');
+fbButton_1.addEventListener('click', async function() {
+    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/',
+        'facebook-share-dialog',
+        'width=800,height=600'
+    );
+    return false;
+});
+</script>
+
+
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.2&appId=1019626224732516&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+-->
 
 </body>
 </html>

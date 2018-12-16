@@ -21,9 +21,15 @@ class End(BrowserView):
     def __call__(self):
 
         request = self.request
+
+        portal = api.portal.get()
+        if not self.request.get('HTTP_REFERER', '').startswith(portal.absolute_url()):
+            self.request.response.redirect(portal.absolute_url())
+            return
+
         self.keys = {}
         self.keys['hat'], self.keys['scarf'], self.keys['phone'], self.keys['hand'], self.keys['clothes'], \
-            self.keys['shoes'], self.keys['decoration'], self.keys['who'], self.keys['say'] = request.PATH_INFO.split('/')[2:11]
+            self.keys['shoes'], self.keys['decoration'], self.keys['who'], self.keys['say'] = request.PATH_INFO.split('/')[-10:-1]
         return self.template()
 
 
@@ -34,9 +40,16 @@ class Talk(BrowserView):
     def __call__(self):
 
         request = self.request
+
+        portal = api.portal.get()
+        if not self.request.get('HTTP_REFERER', '').startswith(portal.absolute_url()):
+            self.request.response.redirect(portal.absolute_url())
+            return
+
         self.keys = {}
+#        import pdb; pdb.set_trace()
         self.keys['hat'], self.keys['scarf'], self.keys['phone'], \
-            self.keys['hand'], self.keys['clothes'], self.keys['shoes'], self.keys['decoration'] = request.PATH_INFO.split('/')[2:9]
+            self.keys['hand'], self.keys['clothes'], self.keys['shoes'], self.keys['decoration'] = request.PATH_INFO.split('/')[-8:-1]
         return self.template()
 
 
@@ -46,6 +59,10 @@ class Image(BrowserView):
 
     def __call__(self):
 
+        portal = api.portal.get()
+        if not self.request.get('HTTP_REFERER', '').startswith(portal.absolute_url()):
+            self.request.response.redirect(portal.absolute_url())
+            return
         return self.template()
 
 
