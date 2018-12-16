@@ -33,8 +33,74 @@ portal = api.portal.get()
 <img src="${portal/absolute_url}/img/clothes/clothes-9.png">
 <img src="${portal/absolute_url}/img/clothes/clothes-10.png">
 
-</div>
+<img src="${portal/absolute_url}/img/hat/hat-1.png">
+<img src="${portal/absolute_url}/img/hat/hat-2.png">
+<img src="${portal/absolute_url}/img/hat/hat-3.png">
 
+<img src="${portal/absolute_url}/img/shoes/shoes-1.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-2.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-3.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-4.png">
+
+<img src="${portal/absolute_url}/img/scarf/scarf-1.png">
+<img src="${portal/absolute_url}/img/scarf/scarf-2.png">
+<img src="${portal/absolute_url}/img/scarf/scarf-3.png">
+
+<img src="${portal/absolute_url}/img/decoration/decoration-1.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-2.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-3.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-4.png">
+
+<img src="${portal/absolute_url}/img/hand/hand-1.png">
+<img src="${portal/absolute_url}/img/hand/hand-2.png">
+<img src="${portal/absolute_url}/img/hand/hand-3.png">
+
+<img src="${portal/absolute_url}/img/phone/phone-1.png">
+<img src="${portal/absolute_url}/img/phone/phone-2.png">
+<img src="${portal/absolute_url}/img/phone/phone-3.png">
+<img src="${portal/absolute_url}/img/phone/phone-4.png">
+<img src="${portal/absolute_url}/img/phone/phone-5.png">
+
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-1.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-2.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-3.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-4.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-5.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-6.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-7.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-8.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-9.png">
+<img src="${portal/absolute_url}/img/clothes/clothes-iocn-10.png">
+
+<img src="${portal/absolute_url}/img/hat/hat-iocn-1.png">
+<img src="${portal/absolute_url}/img/hat/hat-iocn-2.png">
+<img src="${portal/absolute_url}/img/hat/hat-iocn-3.png">
+
+<img src="${portal/absolute_url}/img/shoes/shoes-iocn-1.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-iocn-2.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-iocn-3.png">
+<img src="${portal/absolute_url}/img/shoes/shoes-iocn-4.png">
+
+<img src="${portal/absolute_url}/img/scarf/scarf-iocn-1.png">
+<img src="${portal/absolute_url}/img/scarf/scarf-iocn-2.png">
+<img src="${portal/absolute_url}/img/scarf/scarf-iocn-3.png">
+
+<img src="${portal/absolute_url}/img/decoration/decoration-iocn-1.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-iocn-2.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-iocn-3.png">
+<img src="${portal/absolute_url}/img/decoration/decoration-iocn-4.png">
+
+<img src="${portal/absolute_url}/img/hand/hand-iocn-1.png">
+<img src="${portal/absolute_url}/img/hand/hand-iocn-2.png">
+<img src="${portal/absolute_url}/img/hand/hand-iocn-3.png">
+
+<img src="${portal/absolute_url}/img/phone/phone-iocn-1.png">
+<img src="${portal/absolute_url}/img/phone/phone-iocn-2.png">
+<img src="${portal/absolute_url}/img/phone/phone-iocn-3.png">
+<img src="${portal/absolute_url}/img/phone/phone-iocn-4.png">
+<img src="${portal/absolute_url}/img/phone/phone-iocn-5.png">
+
+</div>
 
 </body>
 </html>
