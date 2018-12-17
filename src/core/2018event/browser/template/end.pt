@@ -105,7 +105,7 @@ portal = api.portal.get()
 <script>
 var fbButton_1 = document.getElementById('share-to-fb');
 fbButton_1.addEventListener('click', async function() {
-    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/',
+    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/?openExternalBrowser=1',
         'facebook-share-dialog',
         'width=800,height=600'
     );

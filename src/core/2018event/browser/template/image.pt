@@ -21,7 +21,7 @@ portal = api.portal.get()
     <ul class="nav1" style="height: 12%;">
         <!-- 衣服 -->
         <li class="li1"><img src="img/icon1.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/clothes/clothes-iocn-1.png" width="100%"/></li>
             <li class="li2"><img src="img/clothes/clothes-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/clothes/clothes-iocn-3.png" width="100%"/></li>
@@ -37,7 +37,7 @@ portal = api.portal.get()
 
         <!-- 帽子 -->
         <li class="li1"><img src="img/icon2.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/hat/hat-iocn-1.png" width="100%"/></li>
 			<li class="li2"><img src="img/hat/hat-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/hat/hat-iocn-3.png" width="100%"/></li>
@@ -45,7 +45,7 @@ portal = api.portal.get()
         </li>
         <!-- 襪子 -->
         <li class="li1"><img src="img/icon3.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/shoes/shoes-iocn-1.png" width="100%"/></li>
 			<li class="li2"><img src="img/shoes/shoes-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/shoes/shoes-iocn-3.png" width="100%"/></li>
@@ -55,7 +55,7 @@ portal = api.portal.get()
 
         <!-- 圍巾 -->
         <li class="li1"><img src="img/icon4.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/scarf/scarf-iocn-1.png" width="100%"/></li>
 			<li class="li2"><img src="img/scarf/scarf-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/scarf/scarf-iocn-3.png" width="100%"/></li>
@@ -64,7 +64,7 @@ portal = api.portal.get()
 
         <!-- 背景 -->
 	<li class="li1"><img src="img/icon5.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/decoration/decoration-iocn-1.png" width="100%"/></li>
 			<li class="li2"><img src="img/decoration/decoration-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/decoration/decoration-iocn-3.png" width="100%"/></li>
@@ -74,7 +74,7 @@ portal = api.portal.get()
 
         <!-- 左手 -->
 	<li class="li1"><img src="img/icon6.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/hand/hand-iocn-1.png" width="100%"/></li>
 			  <li class="li2"><img src="img/hand/hand-iocn-2.png" width="100%"/></li>
 			  <li class="li2"><img src="img/hand/hand-iocn-3.png" width="100%"/></li>
@@ -83,7 +83,7 @@ portal = api.portal.get()
 
         <!-- 右手 -->
 	<li class="li1"><img src="img/icon7.png" width="100%"/><a href="#"></a>
-          <ul class="nav2">
+          <ul class="nav2" style="overflow: scroll; height: 80vh;">
             <li class="li2"><img src="img/phone/phone-iocn-1.png" width="100%"/></li>
 			  <li class="li2"><img src="img/phone/phone-iocn-2.png" width="100%"/></li>
 			  <li class="li2"><img src="img/phone/phone-iocn-3.png" width="100%"/></li>
