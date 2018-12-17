@@ -21,7 +21,7 @@ portal = api.portal.get()
     <ul class="nav1" style="height: 12%;">
         <!-- 衣服 -->
         <li class="li1"><img src="img/icon1.png" width="100%"/><a href="#"></a>
-          <ul class="nav2" style="overflow: scroll; height: 80vh;">
+          <ul class="nav2" style="overflow: scroll; height: 70vh;">
             <li class="li2"><img src="img/clothes/clothes-iocn-1.png" width="100%"/></li>
             <li class="li2"><img src="img/clothes/clothes-iocn-2.png" width="100%"/></li>
 			<li class="li2"><img src="img/clothes/clothes-iocn-3.png" width="100%"/></li>

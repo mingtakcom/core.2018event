@@ -191,6 +191,7 @@ img {
 	background-image: url(/core2018xmas/img/start.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: contain;
 }
 .main-sp {
 	position: relative;

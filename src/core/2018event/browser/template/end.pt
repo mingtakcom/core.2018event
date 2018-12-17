@@ -51,10 +51,6 @@ portal = api.portal.get()
     </div>
 
 
-
-
-
-
 <!--    <img src="img/1.png" height="100%"/></div>
 -->
 
@@ -74,14 +70,12 @@ portal = api.portal.get()
 <!-- facebook 分享 -->
       <div class="main-footer-fb" id="share-to-fb">
 <br>
-<!-- <div class="fb-share-button" data-href="http://firstbank.playgroup.com.tw/" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffirstbank.playgroup.com.tw%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div> -->
-
       </div>
 
 
 
-      <div class="main-footer-card" onclick="location.href='https://ccard.firstbank.com.tw/cmsweb/Home/OnlineApplyCreditCard'"></div>
-      <div class="main-footer-file" onclick="location.href='https://ccard.firstbank.com.tw/pay/ApplePay/index.html'"></div>
+      <div class="main-footer-card" onclick="window.open('https://ccard.firstbank.com.tw/cmsweb/Home/OnlineApplyCreditCard')"></div>
+      <div class="main-footer-file" onclick="window.open('https://ccard.firstbank.com.tw/pay/ApplePay/index.html')"></div>
     </div>
 
 
@@ -103,6 +97,7 @@ portal = api.portal.get()
 
 
 <script>
+/* 等正式上線
 var fbButton_1 = document.getElementById('share-to-fb');
 fbButton_1.addEventListener('click', async function() {
     window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/?openExternalBrowser=1',
@@ -111,6 +106,7 @@ fbButton_1.addEventListener('click', async function() {
     );
     return false;
 });
+*/
 </script>
 
 
