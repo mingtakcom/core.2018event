@@ -237,7 +237,7 @@ img {
 }
 .main-footer-btn1 {
 	float: left;
-	width: 33.3%;
+	width: 50%;
 	height: 70%;
 	background-image: url(/core2018xmas/img/btn-footer-1.png);
 	background-repeat: no-repeat;
@@ -247,7 +247,7 @@ img {
 }
 .main-footer-btn2 {
 	float: left;
-	width: 33.3%;
+	width: 50%;
 	height: 70%;
 	background-image: url(/core2018xmas/img/btn-footer-2.png);
 	background-repeat: no-repeat;

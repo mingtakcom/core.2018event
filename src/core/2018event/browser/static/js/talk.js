@@ -31,6 +31,7 @@
       $('.forwhom').hide()
 
       if( $('#who-img').attr('src') != '' && $('#say-img').attr('src') != '' ){
+          $('.main-footer-btn1, .main-footer-btn2').css('width', '33.3%')
           $('.main-footer-next').slideDown()
       }
   })
@@ -50,6 +51,7 @@
       $('.saywhat').hide()
 
       if( $('#who-img').attr('src') != '' && $('#say-img').attr('src') != '' ){
+          $('.main-footer-btn1, .main-footer-btn2').css('width', '33.3%')
           $('.main-footer-next').slideDown()
       }
 
