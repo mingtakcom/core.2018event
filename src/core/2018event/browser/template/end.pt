@@ -66,7 +66,7 @@ portal = api.portal.get()
 </div>
 
     <div class="main-end-logo"><img src="img/logo.png" height="100%" alt=""/></div>
-    <div class="main-footer">
+    <div class="main-footer" tal:condition="python:not view.request.form.has_key('getimg')">
 <!-- facebook 分享 -->
       <div class="main-footer-fb" id="share-to-fb">
 <br>
@@ -99,7 +99,7 @@ portal = api.portal.get()
 <script>
 var fbButton_1 = document.getElementById('share-to-fb');
 fbButton_1.addEventListener('click', async function() {
-    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/?openExternalBrowser=1',
+    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/index?fn=${view/filename}',
         'facebook-share-dialog',
         'width=800,height=600'
     );
@@ -107,6 +107,13 @@ fbButton_1.addEventListener('click', async function() {
 });
 </script>
 
+<script src="${portal/absolute_url}/++plone++core.2018event/js/jquery-3.3.1.min.js"></script>
+
+<script tal:condition="python:not view.request.form.has_key('getimg')">
+$(document).ready(function(){
+    $.get( "${python:view.request.URL.replace('end', 'getimg')}?fn=${view/filename}" )
+})
+</script>
 
 <!--
 <div id="fb-root"></div>

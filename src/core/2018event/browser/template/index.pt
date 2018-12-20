@@ -10,6 +10,11 @@ portal = api.portal.get()
 <meta charset="utf-8">
 <title>聖誕心意隨你pay</title>
 <link href="${portal/absolute_url}/++plone++core.2018event/css/xmas.css" rel="stylesheet" type="text/css">
+
+<meta property="og:title" content="聖誕心意隨你pay">
+<meta tal:condition="view/filename" property="og:image" content="${portal/absolute_url}/++plone++core.2018event/shareimg/${view/filename}">
+
+
 </head>
 
 <body style="height: 100%;">

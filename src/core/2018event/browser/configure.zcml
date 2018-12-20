@@ -20,6 +20,13 @@
 
   <!-- Browser View -->
   <browser:page
+      name="getimg"
+      class=".views.GetImg"
+      permission="zope2.View"
+      for="*"
+  />
+
+  <browser:page
       name="index"
       class=".views.Index"
       permission="zope2.View"

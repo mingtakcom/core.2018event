@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='core.2018event',
-    version='1.0a1',
+    version='1.1',
     description="2018 Event for Core intergent co.",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
