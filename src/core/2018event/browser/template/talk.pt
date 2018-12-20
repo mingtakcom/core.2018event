@@ -50,7 +50,7 @@ portal = api.portal.get()
   <img data-who="t6" src="img/word1/t6.png">
   <img data-who="t7" src="img/word1/t7.png">
   <img data-who="t8" src="img/word1/t8.png">
-  <img id="bg_img-1" src="img/bg_img.png">
+<!--  <img id="bg_img-1" src="img/bg_img.png"> -->
 </div>
 
 <div class="saywhat">
@@ -69,7 +69,7 @@ portal = api.portal.get()
   <img data-say="w13" src="img/word1/w13.png">
   <img data-say="w14" src="img/word1/w14.png">
   <img data-say="w15" src="img/word1/w15.png">
-  <img id="bg_img-2" src="img/bg_img.png">
+<!--  <img id="bg_img-2" src="img/bg_img.png"> -->
 </div>
 
   <div class="main-overlay">
@@ -139,12 +139,13 @@ portal = api.portal.get()
 
 
 <style>
+/*
 #bg_img-1, #bg_img-2 { 
     position: absolute;
     top: 0;
 z-index:0;
 }
-
+*/
 #bg_img-1 {height:105%}
 #bg_img-2 {height:230%}
 .forwhom, .saywhat {
@@ -161,6 +162,7 @@ z-index:0;
     position: relative;
     width: 100%;
 z-index:10;
+margin-bottom: -1px;
 }
 
 #result-img div { height: 100% }

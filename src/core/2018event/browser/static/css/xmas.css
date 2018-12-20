@@ -212,6 +212,11 @@ img {
 	position: relative;
 	height: 30%;
 }
+#endpage.main-sp-word {
+        position: relative;
+        height: 40%;
+}
+
 .main-sp-image {
 	position: relative;
 	height: 75%;
@@ -364,6 +369,8 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+ /*       padding-top: 20px;
+        padding-bottom: 20px; */
 }
 .main-menu ul li .li2 {
 	background-image: none;

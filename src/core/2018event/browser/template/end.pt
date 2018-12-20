@@ -27,7 +27,7 @@ portal = api.portal.get()
 
 
     <div class="main-sp">
-      <div class="main-sp-word">
+      <div id="endpage" class="main-sp-word">
         <div class="main-sp-word-top"><img class="who-img" src="img/word1/${view/keys/who}.png" width="90%"/></div>
         <div class="main-sp-word-bottom"><img class="say-img" src="img/word1/${view/keys/say}.png" width="90%"/></div>
       </div>
@@ -97,7 +97,6 @@ portal = api.portal.get()
 
 
 <script>
-/* 等正式上線
 var fbButton_1 = document.getElementById('share-to-fb');
 fbButton_1.addEventListener('click', async function() {
     window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/?openExternalBrowser=1',
@@ -106,7 +105,6 @@ fbButton_1.addEventListener('click', async function() {
     );
     return false;
 });
-*/
 </script>
 
 
