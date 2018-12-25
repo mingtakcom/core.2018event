@@ -54,4 +54,11 @@
       for="*"
   />
 
+  <browser:page
+      name="counter"
+      class=".views.Counter"
+      permission="cmf.ManagePortal"
+      for="*"
+  />
+
 </configure>

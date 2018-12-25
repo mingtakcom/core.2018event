@@ -18,6 +18,16 @@ import os
 logger = logging.getLogger("core.2018event")
 
 
+class Counter(BrowserView):
+    """ Counter """
+    template = ViewPageTemplateFile('template/counter.pt')
+
+    def __call__(self):
+
+        self.result = os.popen('ls /home/andy/core2018event/zeocluster/src/core.2018event/src/core/2018event/browser/static/shareimg').read()
+        return self.template()
+
+
 class GetImg(BrowserView):
     """ GetImg """
 
