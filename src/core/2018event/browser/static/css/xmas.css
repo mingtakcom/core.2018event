@@ -45,7 +45,8 @@ img {
 	max-width: 56.22189vh;
 	max-height: 177.86667vw;
 	overflow: hidden;
-	background-color: #e9e5e4;
+/*	background-color: #e9e5e4; */
+        background-color: #ce283c;
 	touch-action: none;
 }
 .main-menu {
@@ -309,7 +310,8 @@ img {
 	position: relative;
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color: #e9e5e4;
+/*	background-color: #e9e5e4; */
+        background-color: #ce283c;
 	padding-top: 4%;
 	padding-bottom: 4%;
 }

@@ -11,7 +11,7 @@ portal = api.portal.get()
 
 <head>
 <meta charset="utf-8">
-<title>聖誕心意隨你pay</title>
+<title>豬年心意隨你pay</title>
 <link href="${portal/absolute_url}/++plone++core.2018event/css/xmas.css" rel="stylesheet" type="text/css">
 
 </head>

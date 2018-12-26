@@ -24,7 +24,7 @@ class Counter(BrowserView):
 
     def __call__(self):
 
-        self.result = os.popen('ls /home/andy/core2018event/zeocluster/src/core.2018event/src/core/2018event/browser/static/shareimg').read()
+        self.result = os.popen('ls /home/andy/core2019event/zeocluster/src/core.2018event/src/core/2018event/browser/static/shareimg').read()
         return self.template()
 
 
@@ -38,8 +38,8 @@ class GetImg(BrowserView):
         # get webpage capture start
 #        filename = '%s.png' % random.randint(1, 999999999)
         filename = request.form.get('fn')
-        url = 'http://localhost:9401/core2018xmas/%s?getimg' % request.VIRTUAL_URL_PARTS[1].replace('getimg', 'end')
-        os.system('python /home/andy/getimg.py %s %s' % (url, filename))
+        url = 'http://localhost:9501/core2018xmas/%s?getimg' % request.VIRTUAL_URL_PARTS[1].replace('getimg', 'end')
+        os.system('python /home/andy/getimg2019.py %s %s' % (url, filename))
         # get webpage capture end
 
         return

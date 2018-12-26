@@ -11,7 +11,7 @@ portal = api.portal.get()
 
 <head>
 <meta charset="utf-8">
-<title>聖誕心意隨你pay</title>
+<title>豬年心意隨你pay</title>
 <link href="${portal/absolute_url}/++plone++core.2018event/css/xmas.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 
@@ -109,7 +109,7 @@ gtag('config', 'UA-131329113-1');
 <script>
 var fbButton_1 = document.getElementById('share-to-fb');
 fbButton_1.addEventListener('click', async function() {
-    window.open('https://www.facebook.com/sharer/sharer.php?u=http://firstbank.playgroup.com.tw/index?fn=${view/filename}',
+    window.open('https://www.facebook.com/sharer/sharer.php?u=${portal/absolute_url}/index?fn=${view/filename}&hashtag=%23第一銀行applepay',
         'facebook-share-dialog',
         'width=800,height=600'
     );
